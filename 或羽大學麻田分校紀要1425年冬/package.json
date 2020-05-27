@@ -1,0 +1,23 @@
+{
+  "name": "arubadaigaku-asadabunkau-kieu-1425huyu",
+  "version": "1.0.0",
+  "description": "或羽大學麻田分校紀要1425年冬",
+  "main": "tasks.py",
+  "scripts": {
+    "test": "./tasks.py test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ne-sachirou/arubadaigaku-asadabunkau-kieu.git"
+  },
+  "author": "ne-sachirou <lunatic.faily@protonmail.com>",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/ne-sachirou/arubadaigaku-asadabunkau-kieu/issues"
+  },
+  "homepage": "https://github.com/ne-sachirou/arubadaigaku-asadabunkau-kieu#readme",
+  "devDependencies": {
+    "npm-check-updates": "^6.0.1",
+    "prettier": "^2.0.5"
+  }
+}

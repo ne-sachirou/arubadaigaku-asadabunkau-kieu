@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "arubadaigaku-asadabunkau-kieu-1425huyu"
+version = "0.1.0"
+description = "或羽大學麻田分校紀要1425年冬"
+authors = ["ne-sachirou <utakata.c4se@gmail.com>"]
+license = "CC-BY-SA-4.0"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+black = "^19.10b0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
