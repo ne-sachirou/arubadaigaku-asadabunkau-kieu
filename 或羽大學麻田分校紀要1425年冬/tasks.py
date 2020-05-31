@@ -14,9 +14,9 @@ def run(command: str, capture_output=False, text=None) -> subprocess.CompletedPr
     env = os.environ.copy()
     return subprocess.run(
         command,
-        env=env,
         capture_output=capture_output,
         check=True,
+        env=env,
         shell=True,
         text=text,
     )
