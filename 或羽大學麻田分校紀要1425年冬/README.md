@@ -7,7 +7,7 @@ Project page: https://scrapbox.io/yuraru/%E6%88%96%E7%BE%BD%E5%A4%A7%E5%AD%B8%E9
 兩河世界の基礎知識とその硏究への誘ひ　 1
 帝󠄁國火星曆に就て　 3
 Agaruneyu の生物と人類󠄀文󠄁明󠄁　 8
-twanosuu 鳥が中心的な役割を果たす古代 yUraru 神󠄀話の例　 10
+twanosuu 鳥が中心的󠄁な役割を果たす古代 yUraru 神󠄀話の例　 10
 
 ## 奧附
 
