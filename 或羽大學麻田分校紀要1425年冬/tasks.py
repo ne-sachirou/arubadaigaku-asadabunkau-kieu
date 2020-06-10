@@ -15,8 +15,11 @@ class SegziForcer(object):
     """Force 俗字 to 正字."""
 
     itaizi_selectors: t.List[str] = [
-        chr(0xE0100),
-        chr(0xE0101),
+        "\U000E0100",
+        "\U000E0101",
+        "\U000E0102",
+        "\U000E0103",
+        "\U000E0104",
     ]
 
     table: t.Dict[str, str] = {
@@ -257,6 +260,9 @@ class SegziForcer(object):
         with open(filename, "r+") as f:
             original_content = content = f.read()
             for (zokuzi, segzi) in SegziForcer.table.items():
+                # content = re.sub(
+                #     "[{}]+".format("".join(SegziForcer.itaizi_selectors)), "", content,
+                # )
                 regex = "{}(?:[{}]?)".format(
                     zokuzi, "".join(SegziForcer.itaizi_selectors),
                 )
