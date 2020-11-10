@@ -1,7 +1,7 @@
 {
-  "name": "arubadaigaku-asadabunkau-kieu-1425huyu",
+  "name": "arubadaigaku-asadabunkau-kieu-1426-xaru",
   "version": "1.0.0",
-  "description": "或羽大學麻田分校紀要1425年冬",
+  "description": "或羽大學麻田分校紀要1426年春",
   "main": "tasks.py",
   "scripts": {
     "test": "./tasks.py test"

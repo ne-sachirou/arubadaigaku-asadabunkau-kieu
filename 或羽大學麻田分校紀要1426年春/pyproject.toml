@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "arubadaigaku-asadabunkau-kieu-1426-xaru"
+version = "0.1.0"
+description = "或羽大學麻田分校紀要1426年春"
+authors = ["ne-sachirou <utakata.c4se@gmail.com>"]
+license = "CC-BY-SA-4.0"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+black = "^20.8b1"
+
+[build-system]
+requires = ["poetry>=1.1"]
+build-backend = "poetry.masonry.api"
