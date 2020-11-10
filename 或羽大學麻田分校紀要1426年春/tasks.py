@@ -308,7 +308,6 @@ def format():
     """Format all files."""
     run("poetry run black *.py")
     for filename in glob.glob("*.md"):
-        # run(r"perl -i -pe 'use utf8; s/[\\x{E0100}\\x{E0101}]//g' " + quote(filename))
         run("npx prettier --write {}".format(quote(filename)))
         if SegziForcer().force(filename):
             print(filename, " !")
