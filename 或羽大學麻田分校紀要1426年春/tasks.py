@@ -411,11 +411,11 @@ def format():
     """Format all files."""
     run("poetry run black *.py")
     for filename in glob.glob("*.md"):
-        run("npx prettier --write {}".format(quote(filename)))
         if SegziForcer().force(filename):
             print(filename, " !")
         else:
             print(filename)
+        run("npx prettier --write {}".format(quote(filename)))
 
 
 @task
